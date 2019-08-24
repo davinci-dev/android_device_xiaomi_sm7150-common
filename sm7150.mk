@@ -67,5 +67,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
+# Ramdisk
+ifdef TARGET_USES_MOTOR
+PRODUCT_PACKAGES += \
+    init.davinci.rc
+else ifeq ($(strip $(TARGET_PRODUCT_HARDWARE)),tucana)
+PRODUCT_PACKAGES += \
+    init.tucana.rc
+endif
+
+PRODUCT_PACKAGES += \
+    init.sm7150.rc
+
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
