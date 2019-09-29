@@ -8,10 +8,7 @@
 set -e
 
 # Required!
-export DEVICE=sm7150-common
 export DEVICE_COMMON=sm6150-common
-export VENDOR=xiaomi
-
-export DEVICE_BRINGUP_YEAR=2019
+export DEVICE_SPECIFIED_COMMON_DEVICE="davinci phoenix"
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
