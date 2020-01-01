@@ -8,7 +8,7 @@
 set -e
 
 # Required!
-export DEVICE=davinci
+export DEVICE=sm7150-common
 export DEVICE_COMMON=sm6150-common
 export VENDOR=xiaomi
 
