@@ -1,137 +1,134 @@
-# ACDB
-vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
+# ACDB - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|25ed0f93f9766b05d8d635244a0c2f1e081d3fd8
+vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb|dabbb0bfeff8fad46b2c555820b6be635a637222
+vendor/etc/acdbdata/Forte/Forte_General_cal.acdb|e2f2a60da4c31521ebd3c5b09a050b017cd57191
+vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|80e01fdaae18eac03ec724c1ff37c09c22c29bd3
+vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb|3768ae0a5112533a2973970f397d977fa3525c6f
+vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb|f94a65238f812044048d4143948ee6c8737a343e
+vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|cb7427eb89f4998a954a9ea7f3f0cf26f8696a05
+vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|c3447a322d0bc156db7d7b86b701902ece41a1b7
+vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|40dadf636c8f79ab4d7dc3f2b91c9cc962f24289
 
-# ACDB loader
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbrtac.so
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
+# ACDB loader - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/lib64/libacdb-fts.so|15751fb8781f73314903f67265598432f0732740
+vendor/lib64/libacdbloader.so|bdc3dc8874c90b3dffc1eaaa83246ead41bb429e
+vendor/lib64/libacdbrtac.so|d793807e32718310c45014f7b5554cf866f5acc8
+vendor/lib/libacdb-fts.so|60c21b30df124f38246bdc8a813b9dd4478e370a
+vendor/lib/libacdbloader.so|e106bbb3663c9441124f71a15e4ab90709ba77e5
+vendor/lib/libacdbrtac.so|e4902f13bec86a23bcd3e2574cd60ff0d42dc70c
 
-# ADSP Modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
-vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
-vendor/lib/rfsa/adsp/libdirac-capiv2.so
-vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib/rfsa/adsp/libSuperSensor_skel.so
-vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so
-vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
-vendor/lib/rfsa/adsp/misound_karaoke_res.bin
-vendor/lib/rfsa/adsp/misound_res.bin
+# ADSP Modules - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so|136ee309e7c9892d55b3e87e45cd0ab39120658e
+vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so|f624829796c1190b0156873d2620a62ea946e383
+vendor/lib/rfsa/adsp/libdirac-capiv2.so|c1432e70a935bc34b3787a4973fce4bab1faf4e2
+vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so|0cdf66b27b4bd8b2f6c0cc07a8514407f6e81766
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
+vendor/lib/rfsa/adsp/libSuperSensor_skel.so|3cf36d5dac2ad627a91a58f2ef1f4a13e687c459
+vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so|27e5f69b0bf2c3433fc62a121a78d7a5d3e2d7b3
+vendor/lib/rfsa/adsp/misound_karaokemix_res.bin|1b6114eeefa29e36f10571ae5dde4ba84625982c
+vendor/lib/rfsa/adsp/misound_karaoke_res.bin|f469c715de041478ccb8f63ddfc20db9e12d844b
+vendor/lib/rfsa/adsp/misound_res.bin|811322296637542e8b8838b748d066fddbe6bc4c
 
-# Audio
-vendor/bin/audioshell_service
-vendor/lib64/hw/audio.primary.sm6150.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudio_log_utils.so
--vendor/lib64/libaudioparsers.so
-vendor/lib64/libaudioroute_ext.so
-vendor/lib64/libqtigef.so
-vendor/lib/hw/audio.primary.sm6150.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudio_log_utils.so
--vendor/lib/libaudioparsers.so
-vendor/lib/libaudioroute_ext.so
-vendor/lib/libdrc.so
-vendor/lib/libqtigef.so
-vendor/lib/libsurround_3mic_proc.so
+# Audio - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/bin/audioshell_service|77c921c6c832df4b35673d70a45f8ff822e9b7f8
+vendor/lib64/hw/audio.primary.sm6150.so|ba872e3ebadab09a2d2eb16c15844269f287794e
+vendor/lib64/libadiertac.so|9f4f0c7d07e1e04e4a0d4a8ef3e4d289fe369d03
+vendor/lib64/libaudcal.so|0dd69e625625692f84afa8ea42bb4af9825df188
+vendor/lib64/libaudioalsa.so|a743be854f0af2ae8f60d6c598f078a4c09f8b41
+vendor/lib64/libaudioconfigstore.so|c9ff288b54824519c537f399afdc4f1e4da20574
+vendor/lib64/libaudio_log_utils.so|a8e0f5215004c493ff9bc4541e91ed8d1b4411a6
+vendor/lib64/libaudioparsers.so|ab849844b97f005231b1b3150e61cd4b67cbdb11
+vendor/lib64/libaudioroute_ext.so|77c9d967116a69d9d7396078059166656854b8de
+vendor/lib64/libqtigef.so|886285c40cd45a4f17d3b2e5e909da5a4fd9bf6c
+vendor/lib/hw/audio.primary.sm6150.so|025694edbd48e37014eb29d8cadb4d7e00764cbb
+vendor/lib/libadiertac.so|1b4c347fa736c4ca984ccf724499a876ec4162bd
+vendor/lib/libadm.so|fd0c0a2a1864023c221a23bc4587fb85134e4e28
+vendor/lib/libaudcal.so|701a95c9d62b08ea7fe3d2f9259ea3ae9277d759
+vendor/lib/libaudioalsa.so|89665aca431ac6de9f0848ff23fba585e70820e5
+vendor/lib/libaudioconfigstore.so|2fc7622d2e8bacb3114b4e1ab05ebdbdc5264f6e
+vendor/lib/libaudio_log_utils.so|df3362525f612e00988a16307c4a3781e564516d
+vendor/lib/libaudioparsers.so|11ad61b7e57e57fe45929a66310c101984c3b341
+vendor/lib/libaudioroute_ext.so|a534e64baa46281d6037fc09ab3c751e0bb7d424
+vendor/lib/libdrc.so|80297cbca91cc6ef470cd667d003e2b27990ef8e
+vendor/lib/libqtigef.so|23f654b3be361b422d7d36375460d1dac232b350
+vendor/lib/libsurround_3mic_proc.so|9020976e90c2b78bcff5cbd6a913b1de8a436000
 
-# Audio FX modules
-etc/permissions/audiosphere.xml
-framework/audiosphere.jar
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libdirac.so
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libmisoundfx.so
-vendor/lib/soundfx/libdirac.so
+# Audio FX modules - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
+framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
+vendor/lib64/soundfx/libasphere.so|bd48aa3d7cf27bf3b12ce29f429b719383e104fc
+vendor/lib64/soundfx/libdirac.so|5cbe7fa0bd027306c0efddd4af26c0a252da408f
+vendor/lib/soundfx/libasphere.so|b16636ad3a2d5b4bf575012ed212b8e51269c7d5
+vendor/lib/soundfx/libmisoundfx.so|9bd544f864971b3b7db7143251bbac9af6b83440
+vendor/lib/soundfx/libdirac.so|3f4df6c51d530663e2c3b1ce20194a0f6d94b68b
 
-# Audio (speaker amplifier) firmware
-vendor/firmware/tfa98xx.cnt
+# Audio (speaker amplifier) firmware - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/firmware/tfa98xx.cnt|90ff4ddd45cd4eb82dc53ecff0e7309db9b062a7
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+# Bluetooth - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|57a0a575a2b1b96176fda1bcb84ea8371c4070d1
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|589dabe898cb749807150bba7ccc26476fa52192
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|f689b6cbbfed80828e2d422263f6b39742d8d167
 
-# Display calibration
-vendor/etc/hdr_config.cfg
-vendor/etc/sdr_config.cfg
+# Display calibration - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/etc/hdr_config.cfg|14bd7906643998c6b6bb51be5f20007232eaccc3
+vendor/etc/sdr_config.cfg|4e0901a44be67f92b747e2c34d13f8858f9cc010
 
-# Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm7150
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:./vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm7150.rc
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so
+# Fingerprint - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm7150|eff187590edac86731c940e24ad53ac5c0c221f7
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm7150.rc|182e2f257c0ae584f31391ddc15cba29c086db8f
+vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so|37c895edb6c42194a9a76432a5837768b9ef5ec9
 
-# NFC
-vendor/lib/libsn100u_fw.so
+# NFC - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/lib/libsn100u_fw.so|c6ae3eb6085c5077041a1301db8f34b0b6dcce4e
 
-# Sensor
-vendor/etc/sensors/config/adux1050_0.json
-vendor/etc/sensors/config/ak991x_dri_0.json
-vendor/etc/sensors/config/icm4x6xx_0.json
-vendor/etc/sensors/config/lsm6ds3c_0.json
-vendor/etc/sensors/config/sm6150_adux1050_0.json
-vendor/etc/sensors/config/sm6150_ak991x_0.json
-vendor/etc/sensors/config/sm6150_icm4x6xx_0.json
-vendor/etc/sensors/config/sm6150_lsm6ds3c_0.json
-vendor/etc/sensors/config/sm6150_power_0.json
-vendor/etc/sensors/config/sm6150_tcs3701.json
-vendor/etc/sensors/config/sns_amd.json
-vendor/etc/sensors/config/sns_amd_sw_disabled.json
-vendor/etc/sensors/config/sns_aod.json
-vendor/etc/sensors/config/sns_basic_gestures.json
-vendor/etc/sensors/config/sns_bring_to_ear.json
-vendor/etc/sensors/config/sns_ccd.json
-vendor/etc/sensors/config/sns_cm.json
-vendor/etc/sensors/config/sns_dae.json
-vendor/etc/sensors/config/sns_device_orient.json
-vendor/etc/sensors/config/sns_diag_filter.json
-vendor/etc/sensors/config/sns_distance_bound.json
-vendor/etc/sensors/config/sns_dpc.json
-vendor/etc/sensors/config/sns_facing.json
-vendor/etc/sensors/config/sns_fmv.json
-vendor/etc/sensors/config/sns_geomag_rv.json
-vendor/etc/sensors/config/sns_gyro_cal.json
-vendor/etc/sensors/config/sns_mag_cal.json
-vendor/etc/sensors/config/sns_multishake.json
-vendor/etc/sensors/config/sns_nonui.json
-vendor/etc/sensors/config/sns_pedometer.json
-vendor/etc/sensors/config/sns_rmd.json
-vendor/etc/sensors/config/sns_rotv.json
-vendor/etc/sensors/config/sns_smd.json
-vendor/etc/sensors/config/sns_tilt.json
-vendor/etc/sensors/config/sns_tilt_sw_enabled.json
-vendor/etc/sensors/config/sns_tilt_to_wake.json
-vendor/etc/sensors/sns_reg_config
+# Sensor - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/etc/sensors/config/adux1050_0.json|0c16bd958f5a064de50676c56694b8406fc99f27
+vendor/etc/sensors/config/ak991x_dri_0.json|62f74b3433eeaef401a97da433b356139cfcd030
+vendor/etc/sensors/config/icm4x6xx_0.json|307aef599eb2c036ad2d19258ff607b15e7d1699
+vendor/etc/sensors/config/sm6150_adux1050_0.json|440dfc642b34b10572b64e938794388dc513e9db
+vendor/etc/sensors/config/sm6150_ak991x_0.json|1da4f7889dff9fef5d578c78d08591f17c7e0aa9
+vendor/etc/sensors/config/sm6150_icm4x6xx_0.json|e1fd1a5cdc0ab56bf69594d9839837cdb124d430
+vendor/etc/sensors/config/sm6150_power_0.json|514ecfbe3358c463e63366c03c01686af8887889
+vendor/etc/sensors/config/sns_amd.json|6a82d23151535a54f705712a2b0801c568ee6448
+vendor/etc/sensors/config/sns_amd_sw_disabled.json|2317693342c673640c2ab69898921729b58ccc15
+vendor/etc/sensors/config/sns_aod.json|ea7ea2150bb1fd22c916e23b03b89d8653e77304
+vendor/etc/sensors/config/sns_basic_gestures.json|5f5dbb4f833d1d7cfd952386fa15c31aa81ecadc
+vendor/etc/sensors/config/sns_bring_to_ear.json|84f6903b23f9e76d28d0103242d1e19f753a9b43
+vendor/etc/sensors/config/sns_ccd.json|caac5b0c01aec95a4c4e61ac31b2cbcc6b3cfacc
+vendor/etc/sensors/config/sns_cm.json|778374f54af08ce46b4dfe13a759c1fda84336ab
+vendor/etc/sensors/config/sns_dae.json|bf9fd6d51059500dfc7b0f46d6624af0ce2731f3
+vendor/etc/sensors/config/sns_device_orient.json|a76b33b789f260b2a9b70d2d372ea42650ab1132
+vendor/etc/sensors/config/sns_diag_filter.json|589ee0a57fb4cf8234b3f0c632763b5d7c96ebe8
+vendor/etc/sensors/config/sns_distance_bound.json|2e1cc29a649328441a6b028209edc073484841cf
+vendor/etc/sensors/config/sns_dpc.json|468bcf9f9a031d1de6513d6749f9d01824ff7f69
+vendor/etc/sensors/config/sns_facing.json|b5970a0c071dc0adf0386817ec7e5c5c902538e7
+vendor/etc/sensors/config/sns_fmv.json|c53174d643e9f5424b0462591dfd4fd204e4425e
+vendor/etc/sensors/config/sns_geomag_rv.json|7a4c453b43d1f02a0375a261b807972110f90165
+vendor/etc/sensors/config/sns_gyro_cal.json|2ae1cce32348d9567429f67270b1d226ab8bb9fc
+vendor/etc/sensors/config/sns_mag_cal.json|c876bb450c6ccf50217d499b495960044d612736
+vendor/etc/sensors/config/sns_multishake.json|aa8bc4ea437db47efd426768ec581a3c5a60a854
+vendor/etc/sensors/config/sns_nonui.json|a75710225c2564292c79e7be98bbb28070a2a754
+vendor/etc/sensors/config/sns_pedometer.json|cd2142fbac1e868013571205c1d9f9c853a3d29f
+vendor/etc/sensors/config/sns_rmd.json|85eaf56abf2dd2a293e7d1ed4b2a65868aae882f
+vendor/etc/sensors/config/sns_rotv.json|af5afedaa2dcacb82a8179f3c1cf3bea658c8a4b
+vendor/etc/sensors/config/sns_smd.json|8488b41b6a2da726fd4afc09ee42f85ee57cbc82
+vendor/etc/sensors/config/sns_tilt.json|a71b89a4f44265a7427b2e2048163562b5851266
+vendor/etc/sensors/config/sns_tilt_sw_enabled.json|dfbb378d8c95169a98376288e9ab03cd6f5fcf26
+vendor/etc/sensors/config/sns_tilt_to_wake.json|703ac308f252161fa86b0d22c888417e539d60a1
+vendor/etc/sensors/sns_reg_config|24301160a0164e148d1e7e9d09789301ea833613
 
-# Thermal
-vendor/bin/mi_thermald
-vendor/bin/thermal-engine
-vendor/etc/thermal-arvr.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermald-devices.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
+# Thermal - from phoenix-user-10-QKQ1.190825.002-V11.0.5.0.QGHCNXM-release-keys
+vendor/bin/mi_thermald|9fb2e53e1880a72ba9af4b30df41927ee728fbf3
+vendor/bin/thermal-engine|b2b9c07b24702e7aab2ef2fbc1851bd88aa3c280
+vendor/etc/thermal-arvr.conf|36361d17dcdce8af7cf06da1a6ab20f2216f0dfe
+vendor/etc/thermal-camera.conf|b367f9c6044b44355f3795ead4172c9fb9079e02
+vendor/etc/thermal-chg-only.conf|9035e4ce675b294ce444f247312a5686d3ed636a
+vendor/etc/thermald-devices.conf|79bd47b6307fd5e1ad7aa7748b5ddece00f6cf94
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/etc/thermal-map.conf|84673cc6b58f95c5f7521b571c6ae75760e74efc
+vendor/etc/thermal-nolimits.conf|e749699ef67c5ce7bb2ac1a64c401425e58238eb
+vendor/etc/thermal-normal.conf|36fbc25723873fba4c8a9327c1df9733ea410b7a
+vendor/etc/thermal-phone.conf|e8e258393626019ee1abdf895cebac92fa9bb9c3
+vendor/etc/thermal-tgame.conf|f449d8e17bf6e00d429631ef50298cd0f825cb7d
